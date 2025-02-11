@@ -1,0 +1,49 @@
+{
+  "apiVersion": 2,
+  "name": "wondah-blocks/mission-values-layout",
+  "title": "Mission Values Layout",
+  "category": "wondah-blocks",
+  "icon": "format-aside",
+  "description": "Display mission and values with numbered items and geometric image",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "mainImage": {
+      "type": "object",
+      "default": {}
+    },
+    "sectionTitle": {
+      "type": "string",
+      "default": "Mission-Vision-Values"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "number": "01",
+          "title": "Mission statement",
+          "description": "Your text goes here. Adapt it to your needs and capture your audience's attention."
+        },
+        {
+          "number": "02",
+          "title": "Vision statement",
+          "description": "Your text goes here. Adapt it to your needs and capture your audience's attention."
+        },
+        {
+          "number": "03",
+          "title": "Values",
+          "description": "Your text goes here. Adapt it to your needs and capture your audience's attention."
+        }
+      ]
+    }
+  },
+  "textdomain": "wondah-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

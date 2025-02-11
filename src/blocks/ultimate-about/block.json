@@ -1,0 +1,143 @@
+{
+    "apiVersion": 2,
+    "name": "wondah-blocks/ultimate-about",
+    "title": "Ultimate About Collection",
+    "category": "wondah-blocks",
+    "icon": "groups",
+    "description": "A versatile about section with title, description, and image layouts",
+    "keywords": [
+        "about",
+        "team",
+        "company"
+    ],
+    "supports": {
+        "html": false,
+        "align": [
+            "wide",
+            "full"
+        ]
+    },
+    "attributes": {
+        "subtitle": {
+            "type": "string",
+            "default": "We are Investare"
+        },
+        "title": {
+            "type": "string",
+            "default": "We set out to build"
+        },
+        "highlightedTitle": {
+            "type": "string",
+            "default": "a better way to invest"
+        },
+        "description": {
+            "type": "string",
+            "default": "Together–the investors and partners of Investate–we are reinventing real estate investing end-to-end."
+        },
+        "teamImage": {
+            "type": "object",
+            "default": {}
+        },
+        "consultationImage": {
+            "type": "object",
+            "default": {}
+        },
+        "subtitleColor": {
+            "type": "string",
+            "default": "#FF6B6B"
+        },
+        "titleColor": {
+            "type": "string",
+            "default": "#000000"
+        },
+        "highlightedTitleColor": {
+            "type": "string",
+            "default": "#666666"
+        },
+        "descriptionColor": {
+            "type": "string",
+            "default": "#666666"
+        },
+        "subtitleFontSize": {
+            "type": "number",
+            "default": 18
+        },
+        "titleFontSize": {
+            "type": "number",
+            "default": 48
+        },
+        "descriptionFontSize": {
+            "type": "number",
+            "default": 18
+        },
+        "storyTitle": {
+            "type": "string",
+            "default": "Our Story ↘"
+        },
+        "storyDescription": {
+            "type": "string",
+            "default": "Our founder started because he wanted to make it easy for anyone to do what he does: make money by investing in real estate."
+        },
+        "founderQuote": {
+            "type": "string",
+            "default": "Our goal is to build a better financial system for the individual investor — one that is simpler, more reliable, lower cost and transparent."
+        },
+        "founderName": {
+            "type": "string",
+            "default": "Mike Simorangkir"
+        },
+        "founderPosition": {
+            "type": "string",
+            "default": "Founder & CEO"
+        },
+        "teamSectionTitle": {
+            "type": "string",
+            "default": "Our team has over"
+        },
+        "teamExperience": {
+            "type": "string",
+            "default": "100 years"
+        },
+        "teamDescription": {
+            "type": "string",
+            "default": "Our team brings experience, innovation, and creativity to the real estate investing experience to ensure your plans are in good hands."
+        },
+        "teamExperienceSuffix": {
+            "type": "string",
+            "default": "of combined experience!"
+        },
+        "teamMembers": {
+            "type": "array",
+            "default": [
+                {
+                    "name": "Mike Simorangkir",
+                    "position": "Founder & CEO",
+                    "bio": "Mike, MBA, has 15+ years of experience in commercial and mixed-use real property development.",
+                    "image": {}
+                },
+                {
+                    "name": "Stanley George",
+                    "position": "Retired EVP & COO",
+                    "bio": "Gregory was a partner at Heenan Blaikie LLP until September 2008.",
+                    "image": {}
+                },
+                {
+                    "name": "Eliza Baker",
+                    "position": "VP, Operations",
+                    "bio": "Eliza, MBA, has 12+ years of experience in commercial and mixed-use real property development.",
+                    "image": {}
+                },
+                {
+                    "name": "Sally Cruz",
+                    "position": "Chief Marketing Officer",
+                    "bio": "Terence Chang, has 10+ years of real estate investing experience in both the Canadian and Asia Pacific markets.",
+                    "image": {}
+                }
+            ]
+        }
+    },
+    "textdomain": "wondah-blocks",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

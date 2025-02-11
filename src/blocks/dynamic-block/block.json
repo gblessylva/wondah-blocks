@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "wondah-blocks/dynamic-content-block",
+    "title": "Dynamic Content Block",
+    "description": "Displays a list of all pages dynamically.",
+    "category": "design",
+    "icon": "admin-page",
+    "editorScript": "file:./index.js",
+    "render": "file:./render.php"
+  }
+  

@@ -1,0 +1,182 @@
+.mvl-block {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 80px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .mvl-content {
+        flex: 1;
+        padding: 40px 0;
+
+        .mvl-title {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 50px;
+            color: #1a1a1a;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -15px;
+                width: 60px;
+                height: 4px;
+                background: #FF6B6B;
+            }
+        }
+
+        .mvl-items {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .mvl-item {
+                display: flex;
+                gap: 20px;
+                align-items: flex-start;
+
+                .mvl-item-number {
+                    flex: 0 0 60px;
+                    width: 60px;
+                    height: 60px;
+                    background: #FF6B6B;
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                .mvl-item-content {
+                    flex: 1;
+                    .mvl-item-header {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+
+                        .mvl-remove-button {
+                            padding: 4px;
+                            color: #cc1818;
+                            
+                            &:hover {
+                                color: #710d0d;
+                            }
+                        }
+                    }
+                    .mvl-item-title {
+                        font-size: 24px;
+                        font-weight: 600;
+                        margin: 0 0 10px;
+                        color: #1a1a1a;
+                    }
+
+                    .mvl-item-description {
+                        font-size: 16px;
+                        line-height: 1.6;
+                        color: #666;
+                        margin: 0;
+                    }
+                }
+            }
+            .mvl-add-button {
+                margin-top: 30px;
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+
+    .mvl-image-section {
+        flex: 0 0 45%;
+        position: relative;
+        min-height: 500px;
+        border-radius: 20px;
+        overflow: hidden;
+        background: #f5f5f5;
+
+        .mvl-image-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .mvl-geometric-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(135deg, rgba(255,107,107,0.1) 0%, rgba(255,107,107,0) 100%);
+                clip-path: polygon(0 0, 100% 0, 50% 100%, 0 50%);
+            }
+        }
+
+        .mvl-upload-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    @media (max-width: 992px) {
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+        gap: 40px;
+
+        .mvl-image-section {
+            min-height: 300px;
+        }
+
+        .mvl-content {
+            padding: 0;
+
+            .mvl-title {
+                font-size: 36px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        .mvl-content {
+            .mvl-title {
+                font-size: 28px;
+            }
+
+            .mvl-items {
+                gap: 20px;
+
+                .mvl-item {
+                    gap: 15px;
+
+                    .mvl-item-number {
+                        flex: 0 0 45px;
+                        width: 45px;
+                        height: 45px;
+                        font-size: 16px;
+                    }
+
+                    .mvl-item-content {
+                        .mvl-item-title {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

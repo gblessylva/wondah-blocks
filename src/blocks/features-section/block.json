@@ -1,0 +1,58 @@
+{
+    "apiVersion": 2,
+    "name": "wondah-blocks/features-section",
+    "title": "Features Section",
+    "category": "design",
+    "icon": "grid-view",
+    "description": "A features section block with customizable items",
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "textdomain": "wondah-blocks",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./style.scss",
+    "style": "file:./style.scss",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2"
+        },
+        "description": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "source": "attribute",
+            "selector": ".features-section",
+            "attribute": "style",
+            "default": "#ffffff"
+        },
+        "globalIconSize": {
+            "type": "number",
+            "default": 32
+        },
+        "features": {
+            "type": "array",
+            "source": "query",
+            "selector": ".feature-item",
+            "query": {
+                "icon": {
+                    "source": "html",
+                    "selector": ".icon"
+                },
+                "title": {
+                    "source": "html",
+                    "selector": ".feature-title"
+                },
+                "description": {
+                    "source": "html",
+                    "selector": ".feature-description"
+                }
+            }
+        }
+    }
+}

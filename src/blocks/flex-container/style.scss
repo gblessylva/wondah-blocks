@@ -1,0 +1,35 @@
+.flex-container {
+    margin: 0 auto;
+    padding: 40px;
+    
+    &.direction-horizontal {
+        display: flex;
+        gap: 30px;
+        
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    
+    &.direction-vertical {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .flex-column {
+        min-width: 0;
+    }
+}
+
+// Editor styles
+.wp-block-wondah-blocks-flex-container {
+    .flex-container-color-picker {
+        margin-top: 16px;
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+    }
+}

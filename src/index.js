@@ -1,0 +1,16 @@
+import './style.scss';
+import './blocks/hero-section';
+import './blocks/features-section';
+import './blocks/about-layout-one'; 
+import './blocks/about-layout-two';   
+import './blocks/about-layout-three'; 
+import './blocks/goals-layout-one';
+import './blocks/columns-block';
+import './blocks/footer-block';
+import './blocks/ultimate-about';
+import './blocks/vision-mission';
+import './blocks/mission-values-layout';
+import './blocks/therapy-hero';
+import './blocks/flex-container';
+import './blocks/dynamic-content';
+import './blocks/dynamic-block';

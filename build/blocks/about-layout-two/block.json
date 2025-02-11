@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wondah-blocks/about-layout-two",
+  "version": "0.1.0",
+  "title": "About Layout Two",
+  "category": "design",
+  "icon": "align-pull-right",
+  "description": "About section with features and video placeholder",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "wondah-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

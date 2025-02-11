@@ -1,0 +1,47 @@
+{
+    "apiVersion": 2,
+    "name": "wondah-blocks/vision-mission",
+    "title": "Vision Mission Strategy",
+    "category": "wondah-blocks",
+    "icon": "visibility",
+    "description": "Display your company's vision, mission, and values with icons",
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "attributes": {
+        "backgroundImage": {
+            "type": "object",
+            "default": {}
+        },
+        "blockTitle": {
+            "type": "string",
+            "default": "Vision Mission Strategy"
+        },
+        "cards": {
+            "type": "array",
+            "default": [
+                {
+                    "title": "Our Vision",
+                    "description": "This slide is 100% editable. Adjust it as per your requirements and catches your viewers consideration.",
+                    "icon": "vision-icon"
+                },
+                {
+                    "title": "Our Mission",
+                    "description": "This slide is 100% editable. Adjust it as per your requirements and catches your viewers consideration.",
+                    "icon": "mission-icon"
+                },
+                {
+                    "title": "Our Values",
+                    "description": "This slide is 100% editable. Adjust it as per your requirements and catches your viewers consideration.",
+                    "icon": "values-icon"
+                }
+            ]
+        }
+        
+    },
+    "textdomain": "wondah-blocks",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

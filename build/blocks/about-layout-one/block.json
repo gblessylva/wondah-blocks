@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wondah-blocks/about-layout-one",
+  "version": "0.1.0",
+  "title": "About Layout One",
+  "category": "design",
+  "icon": "align-pull-right",
+  "description": "A two-column about section with image and text",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "wondah-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Together We Are Strengthening Humanity"
+    },
+    "description": {
+      "type": "string",
+      "default": "We've been campaigning for a green and peaceful future for 40 years — and we're not stopping now. It's time to rise up like never before and fight for our climate and communities."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Read About Us"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageId": {
+      "type": "number"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#666666"
+    },
+    "titleFontSize": {
+      "type": "number",
+      "default": 48
+    },
+    "descriptionFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "buttonBackgroundColor": {
+      "type": "string",
+      "default": "#E65525"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    }
+  }
+}

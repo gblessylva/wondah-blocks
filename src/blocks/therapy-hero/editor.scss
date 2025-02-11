@@ -1,0 +1,10 @@
+.editor-image-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .editor-button {
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,1 @@
+.wondah-columns-block{background-repeat:no-repeat;position:relative}.wondah-columns-block .background-overlay{pointer-events:none}.wondah-columns-block .columns-container{display:grid;margin:0 auto;max-width:1200px}.wondah-columns-block .columns-container .column{min-height:50px}@media(max-width:768px){.wondah-columns-block .columns-container{grid-template-columns:1fr!important}}

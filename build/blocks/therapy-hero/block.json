@@ -1,0 +1,86 @@
+{
+  "apiVersion": 2,
+  "name": "wondah-blocks/therapy-hero",
+  "title": "Therapy Hero Layout",
+  "category": "wondah-blocks",
+  "icon": "heart",
+  "description": "A hero section for therapy services with labeled images",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "wondah-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "mainTitle": {
+      "type": "string",
+      "default": "Overcoming obstacles to live your best life"
+    },
+    "description": {
+      "type": "string",
+      "default": "Overcoming obstacles is essential to achieving your optimal wellbeing. It requires you to face your fears, take calculated risks, and persist through setbacks."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Book an Appointment"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "mainImage": {
+      "type": "object",
+      "default": {}
+    },
+    "secondaryImage": {
+      "type": "object",
+      "default": {}
+    },
+    "successCount": {
+      "type": "string",
+      "default": "950+"
+    },
+    "successText": {
+      "type": "string",
+      "default": "Happy cases solved"
+    },
+    "therapyLabels": {
+      "type": "array",
+      "default": [
+        {
+          "text": "Anger Management",
+          "position": {
+            "x": 50,
+            "y": 30
+          }
+        },
+        {
+          "text": "Life Transitions",
+          "position": {
+            "x": 50,
+            "y": 70
+          }
+        },
+        {
+          "text": "Anxiety",
+          "position": {
+            "x": 50,
+            "y": 30
+          }
+        },
+        {
+          "text": "Depression",
+          "position": {
+            "x": 50,
+            "y": 70
+          }
+        }
+      ]
+    }
+  }
+}

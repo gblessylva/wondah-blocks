@@ -1,0 +1,45 @@
+{
+  "apiVersion": 2,
+  "name": "wondah-blocks/column-list",
+  "title": "A two column with list",
+  "category": "wondah-blocks",
+  "icon": "visibility",
+  "description": "Display a list and another form block",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "blockTitle": {
+      "type": "string",
+      "default": "A two column with list"
+    },
+    "cards": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Our Vision",
+          "description": "This slide is 100% editable. Adjust it as per your requirements and catches your viewers consideration.",
+          "icon": "vision-icon"
+        },
+        {
+          "title": "Our Mission",
+          "description": "This slide is 100% editable. Adjust it as per your requirements and catches your viewers consideration.",
+          "icon": "mission-icon"
+        },
+        {
+          "title": "Our Values",
+          "description": "This slide is 100% editable. Adjust it as per your requirements and catches your viewers consideration.",
+          "icon": "values-icon"
+        }
+      ]
+    }
+  },
+  "textdomain": "wondah-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

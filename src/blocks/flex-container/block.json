@@ -1,0 +1,42 @@
+{
+    "apiVersion": 2,
+    "name": "wondah-blocks/flex-container",
+    "title": "Flex Container",
+    "category": "wondah-blocks",
+    "icon": "layout",
+    "description": "A flexible container with customizable columns and layout options",
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "attributes": {
+        "columns": {
+            "type": "number",
+            "default": 2
+        },
+        "columnContent": {
+            "type": "array",
+            "default": []
+        },
+        "direction": {
+            "type": "string",
+            "default": "horizontal"
+        },
+        "containerWidth": {
+            "type": "string",
+            "default": "1200px"
+        },
+        "columnLayout": {
+            "type": "string",
+            "default": "50-50"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": "#ffffff"
+        }
+    },
+    "textdomain": "wondah-blocks",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

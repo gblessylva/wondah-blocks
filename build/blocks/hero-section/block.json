@@ -1,0 +1,35 @@
+{
+  "apiVersion": 2,
+  "name": "wondah-blocks/hero-section",
+  "title": "Hero Section",
+  "category": "design",
+  "icon": "cover-image",
+  "description": "A hero section block with title, description, and background image",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "wondah-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./style.scss",
+  "style": "file:./style.scss",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "h1"
+    },
+    "description": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "backgroundImage": {
+      "type": "object",
+      "default": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.wondah-columns-block {
+    position: relative;
+    background-repeat: no-repeat;
+
+    .background-overlay {
+        pointer-events: none;
+    }
+
+    .columns-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+
+        .column {
+            min-height: 50px;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr !important;
+        }
+    }
+}
