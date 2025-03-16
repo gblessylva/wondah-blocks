@@ -69,6 +69,26 @@ All blocks can be found in the block inserter under the "Wondah Blocks" category
 - Content
 - Wondah Blocks
 
+## Screenshots
+
+1. **About Layout Two** - Modern about section with features and video placeholder
+![About Layout Two](/screenshots/about-layout-two.png)
+
+2. **Hero Section** - Versatile hero section with multiple layouts
+![Hero Section](/screenshots/hero-section.png)
+
+3. **Features Section** - Display features in a grid layout with icons
+![Features Section](/screenshots/features-section.png)
+
+4. **Mission & Vision** - Organization's vision and mission statements
+![Mission & Vision](/screenshots/mission-vision.png)
+
+5. **Dynamic Content** - Modern grid layout for posts and custom post types
+![Dynamic Content](/screenshots/dynamic-content.png)
+
+6. **Block Editor** - Customization options in the block editor
+![Block Editor](/screenshots/block-editor.png)
+
 ## Support
 
 For support questions, feature requests or bug reports, please use the plugin's GitHub repository issues section.
